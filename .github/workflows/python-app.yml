@@ -22,6 +22,6 @@ jobs:
     - name: Lint with flake8
       run: |
         flake8 . 
-    - name: Test with pytest
+    - name: Test with nosetests
       run: |
         nosetests -v
